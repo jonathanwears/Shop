@@ -1,17 +1,19 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ProductsFullInformation from '../components/productsPage/ProductsFullInformation';
+import ProductsList from '../components/productsPage/ProductsFullInformation';
+
 
 function Products() {
   let a = ' string';
-    a= 'banana';
+  a = 'banana';
 
-    return (
-      <BrowserRouter>
-      hello
-        // product list
-        // product information
-      </BrowserRouter>
-    );
+  return (
+    <>
+      <ProductsList />
+      <ProductsFullInformation />
+    </>
+
+  );
 }
 
 export default Products;
