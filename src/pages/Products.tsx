@@ -4,8 +4,6 @@ import ProductsList from '../components/productsPage/ProductsFullInformation';
 
 
 function Products() {
-  let a = ' string';
-  a = 'banana';
 
   return (
     <>
